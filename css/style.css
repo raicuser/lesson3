@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    margin: o;
+    padding: 0;
+    border: 0;
+}
+
+ol li,
+ul li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+}
+
+.header__title {
+    color: brown;
+}
+
+.header__subtitle {
+    color: darkblue;
+}
+
+.main__article a {
+    color: red;
+}
+.main__article span {
+    color: yellow;
+}
+
+.block__title,
+.block__list {
+    color: violet;
+}
+
+.block__text {
+    color: green;
+}
+
+.article__block2 p {
+    color: indigo;
+}
+.block2__title {
+    color: lightcoral;
+}
+.block2__list {
+    color: lightslategray;
+}
+
+.article__block3 {
+    color: magenta;
+}
+.block3__text {
+    color: green;
+}
+.article__block4 a {
+    color: lime;
+}
+.block4__title,
+.block4__list {
+    color: hotpink;
+}
+
+.block4__text span {
+    color: orangered;
+}
+.article__block5 p {
+    color: pink;
+}
+.article__block5 + .article__block6 {
+    font-size: 20px;
+}
+
+.block6__text > p {
+    color: red;
+}
+
+.footer__title a {
+    color: green;
+}
